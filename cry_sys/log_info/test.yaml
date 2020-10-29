@@ -1,6 +1,0 @@
-loginPage:
-  username: //*[@id="UserName"]
-  password: //*[@id="Password"]
-  click: /html/body/table/tbody/tr[1]/td[2]/form/table/tbody/tr[6]/td/input[1]
-
-clientPage:
