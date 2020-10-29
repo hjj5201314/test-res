@@ -7,7 +7,7 @@ import re
 # class JD:
 def name_error():
     try:
-        driver=webdriver.Chrome('E:\\python\\chromedriver.exe')
+        driver=webdriver.Chrome('C:\\Users\\dell\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe')
         driver.get('C:\\Users\\dell\\Desktop\\jd_reg\\demo.html')
         name_element=driver.find_element_by_xpath('//*[@id="userName"]')
         name_element.send_keys('11')
